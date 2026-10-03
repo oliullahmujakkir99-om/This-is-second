@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-work-sans{
+    font-family: "Work sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.banner{
+    background: url(../images/banner/banner1.png);
+    width: 100%;
+    max-width: 1600px;
+    height: 808px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: auto;
+}
+
+.banner-content{
+    padding: 216px 150px 364px 845px;
+    text-align: right;
+}
+
+.banner-content h1 {
+    
+    max-width: 525px;
+    height: 228px;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: auto ;
+    margin-bottom: 24px;
+}
+
+.banner-content p{
+    max-width: 494px;
+    height: 78px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    margin-left: auto;
+    margin-bottom: 32px;
+}
+
+.btn{
+    width: 160px;
+    height: 64px;
+    margin-bottom: 50;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #F15B22;
+    border-radius: 5px;
+}
+
+.past-history{
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 87px;
+}
+
+.past-content{
+    align-items: center;
+    margin-top: 239px;
+}
+
+.past-content h2{
+    width: 288px;
+    height: 94px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.past-content p{
+    width: 416px;
+    height: 104;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.past-content ul{
+    width: 349px;
+    height: 162px;
+    line-height: 2;
+    list-style: none;
+}
+
+.past-content li i{
+    color: #16D887;
+    width: 16px;
+    height: 11px;
+}
+
+.plan{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.plan h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 103px;
+}
+
+.plan-box{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    max-width: ;
+}
+
+.plan-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.plan-card img{
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.plan-card h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.plan-card p {
+    font-size: 20px;
+}
+
+.gradient-card{
+    width: 100%;
+    max-width: 1140px;
+    margin: 130px auto;
+    padding: 0 20px;
+    height: 330px;
+    background-image: url(../images/gradient3.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.gradient-card h2{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+    line-height: 1.2;
+}
+
+.btn-call{ 
+    width: 140px;
+    height: 54px;
+    margin-bottom: 50;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.footer-container{
+    width: 100%;
+    max-width: 1600px;
+    height: 577px;
+    background-color: black;
+    background-size: auto;
+    margin: 0 auto;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    max-width: 485px;
+    height: 317px;
+    padding: 130px 0;
+    margin-left: 230px;
+}
+
+.social h2{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.social p{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.social .contact-info{
+    margin-top: 24px;
+    font-size: 16px;
+}
+
+.social .icons{
+    margin-top: 32px;
+    max-width: 172px;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.form{
+    max-width: 325px;
+    height: 204px;
+    padding: 130px 0;
+    margin-right: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form h2{
+    font-size: 25;
+    margin-bottom: 15px;
+}
+
+.form input{
+    padding: 21px 158px 22px 21px;
+    background-color: black;
+    border: 1px solid white;
+    border: 20px;
+    margin-bottom: 16px;
+}
+
+.btn-subscribe{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 50;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
